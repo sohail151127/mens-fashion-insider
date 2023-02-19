@@ -95,6 +95,8 @@ footer{
     font-size: var(--font-size-base);
     color: #b1acac;
     font-family: var(--font-barlow);
+    position: sticky;
+    top: 0px;
   }
 
   .rectangle-parent1 {
