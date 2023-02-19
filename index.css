@@ -1,15 +1,23 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
 html, body {
     margin: 0;
     height: 100%;
+    font-family: 'Barlow';
+    
 }
 
 .header__1{
     display: flex;
     justify-content: center;
     background-color: black;
-    color: #b1acac;
+    color: #6D6D6D;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    font-family: 'Barlow';
+    font-weight: 400;
 }
 
 /* .header__2{
@@ -18,18 +26,29 @@ html, body {
 
 .header__2__title{
     color: white;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
+    padding-left: 154px;
+    padding-right: 154px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: xx-large;
+    font-family: 'Barlow';
+    /* font-weight: 400; */
+    /* font-size: 40px; */
+
+    font-weight: 600;
+    font-size: 36px;
     
 }
 
 .breadcrumbs{
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
+    padding-left: 154px;
+    padding-right: 154px;
     display: flex;
     padding-top: 0.5rem;
     padding-bottom: 2rem;
+    font-family: 'Barlow';
+
 }
 
 .container {
@@ -43,8 +62,10 @@ main {
     /* to remove scroll option un-comment above */
     /* flex: 1; */
     display: flex;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+    padding-left: 154px;
+    padding-right: 154px;
     column-gap: 1rem;
 
 }
@@ -307,10 +328,7 @@ footer{
 
   
   
-  .if-you-struggle-with-foot-pain {
-    
-/* margin-top: 1rem; */
-  }
+  
   .this-is-the-problem-with-foot {
     /* margin: 0; */
   }
@@ -325,18 +343,15 @@ footer{
     gap: var(--gap-xl);
     font-size: 36px;
   }
-  .untreated-foot-pain {
-    
-    /* margin-bottom: 1rem; */
-  }
+
   .foot-pain-1200x1200-1-icon {
     width: 100%;
     /* margin-bottom: 1rem; */
   }
   .untreated-foot-pain-is-a-time-parent {
-    font-size: x-large;
-    font-weight: bold;
-   
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
   }
   .foot-pain-is {
     font-family: var(--font-barlow);
@@ -349,10 +364,9 @@ footer{
   }
   
   .the-truth-about {
-    font-size: x-large;
-    font-weight: bold;
-    /* margin-top: 2rem;
-    margin-bottom: 1rem; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
   }
   .oxford-derby-orthopedic1 {
     text-decoration: underline;
@@ -363,21 +377,18 @@ footer{
     font-family: var(--font-barlow);
   }
   .if-you-spend {
-    font-size: x-large;
-    font-weight: bold;
-    /* margin-top: 2rem;
-    margin-bottom: 1rem; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
   }
-  .if-you-spend,
-  .over-12500,
-  .working-as-a-container {
-    /* font-size: x-large; */
-    font-weight: bold;
-    
+  
+  .over-12500 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
   }
   .working-as-a-container {
     font-size: var(--font-size-base);
-    /* width: 835px; */
   }
 
   .these-leather-orthopedic-shoes-parent{
