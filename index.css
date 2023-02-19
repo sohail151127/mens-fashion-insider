@@ -71,7 +71,8 @@ main {
 }
 
 aside{
-    flex: 0 0 200px;
+    /* 250 px is the width of right sidebar */
+    flex: 0 0 270px;
 }
 
 article{
@@ -103,40 +104,29 @@ footer{
 /* ........css.......... */
 
 
-.featured-parent {
-    /* position: absolute; */
-    /* top: 317px; */
-    /* left: 1020px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-    /* justify-content: flex-start; */
-    /* gap: 20px; */
+.featured-parents {
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
     text-align: center;
     font-size: var(--font-size-base);
     color: #b1acac;
     font-family: var(--font-barlow);
-    position: sticky;
-    top: 0px;
-  }
 
-  .rectangle-parent1 {
-    /* position: relative; */
-    /* width: 850px; */
-    /* height: 550px; */
-    /* flex-shrink: 0; */
+    position: sticky;
+    top: -2rem;
   }
   .group-child {
     background-color: var(--color-white);
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    /* width: 270px; */
-    /* height: 619px; */
+    /* border: 5px solid rgba(0, 0, 0, 0.5); */
+    /* width: 100%; */
   }
   .frame-parent {
-    /* position: relative; */
-    /* top: 15px; */
-    /* left: 15px; */
-    /* gap: var(--gap-md); */
+    gap: var(--gap-md);
   }
   .recommended-parent {
     display: flex;
@@ -203,19 +193,19 @@ footer{
   .recommended {
     
     font-weight: 600;
+    color: black
+  }
+ .recommended1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
     color: white;
-  }
-  .vector-icon {
-    /* position: relative; */
-    /* width: 15px;
-    height: 15px;
-    flex-shrink: 0; */
-  }
+    
+ }
   .vector-parent {
     cursor: pointer;
-    /* border: 0;
-    padding: 0; */
     background-color: transparent;
+    border: none;
     /* display: flex; */
     /* flex-direction: row; */
     /* align-items: flex-start; */
@@ -284,6 +274,7 @@ footer{
     padding: 0;
     background-color: transparent;
     gap: var(--gap-xs);
+    
   }
   .frame-group,
   .frame-parent,
@@ -292,18 +283,17 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: -0.5rem;
   }
   .frame-group {
-    /* width: 240px; */
+    width: 240px;
     gap: 13px;
     font-size: var(--font-size-xs);
   }
   
   .rectangle-parent {
-    /* position: relative; */
-    /* width: 15rem; */
-    /* height: 619px; */
-    /* flex-shrink: 0; */
+    border: 1px solid black;
+    width: 100%;
     text-align: left;
     color: var(--color-black);
     font-family: var(--font-roboto);
@@ -490,9 +480,7 @@ footer{
     /* width: 828px; */
   }
   .group-child1 {
-    /* position: absolute; */
-    top: 0;
-    left: 0;
+    
     border: 5px solid var(--color-black);
     box-sizing: border-box;
     /* width: 850px; */
