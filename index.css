@@ -34,6 +34,9 @@ html, body {
     font-family: 'Montserrat';
     /* font-weight: 400; */
     /* font-size: 40px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
 
     font-weight: 600;
     font-size: 36px;
@@ -45,6 +48,8 @@ html, body {
     padding-left: 279px;
     padding-right: 279px;
     display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
     padding-top: 0.5rem;
     padding-bottom: 2rem;
     font-family: 'Barlow';
@@ -99,6 +104,45 @@ footer{
         /* flex: 0 0 200px; */
         display: none;
     }
+    .header__2__title{
+      padding-left: 140px;
+      padding-right: 279px;
+  }
+    .breadcrumbs{
+      padding-left: 140px;
+      padding-right: 200px;
+      display: flex;
+  }
+    main {
+      border: 2px solid green;
+      display: flex;
+      padding-left: 125px;
+      padding-right: 200px;
+      /* column-gap: 1rem; */
+  }
+}
+
+@media screen and (max-width:829px) {
+  aside{
+      /* flex: 0 0 200px; */
+      /* display: none; */
+  }
+  .header__2__title{
+    padding-left: 150px;
+    padding-right: 200px;
+}
+  .breadcrumbs{
+    padding-left: 150px;
+    padding-right: 200px;
+    display: flex;
+}
+  main {
+    border: 2px solid green;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 200px;
+    /* column-gap: 1rem; */
+}
 }
 
 /* ........css.......... */
