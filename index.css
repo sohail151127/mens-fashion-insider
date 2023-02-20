@@ -9,6 +9,11 @@ html, body {
     
 }
 
+/* I'm giving this class to all the text expect headings */
+.font__size{
+  font-size: 22px !important;
+}
+
 .header__1{
     display: flex;
     justify-content: center;
