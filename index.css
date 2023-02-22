@@ -74,9 +74,9 @@ main {
     display: flex;
     /* margin-left: 3rem;
     margin-right: 3rem; */
-    padding-left: 131px;
-    padding-right: 131px;
-    column-gap: 1rem;
+    padding-left: 231px;
+    padding-right: 231px;
+    column-gap: 30px;
 
 }
 
