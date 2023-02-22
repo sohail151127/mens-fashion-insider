@@ -32,8 +32,8 @@ html, body {
 .header__2__title{
     color: white;
     /* margin-left: 3rem; */
-    padding-left: 132px;
-    padding-right: 132px;
+    padding-left: 231px;
+    padding-right: 231px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: 'Montserrat';
@@ -50,8 +50,8 @@ html, body {
 
 .breadcrumbs{
     /* margin-left: 3rem; */
-    padding-left: 132px;
-    padding-right: 132px;
+    padding-left: 231px;
+    padding-right: 231px;
     display: flex;
     /* justify-content: center; */
     /* text-align: center; */
