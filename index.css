@@ -17,17 +17,17 @@ html, body {
 .header__1{
     display: flex;
     justify-content: center;
-    background-color: black;
-    color: #6D6D6D;
+    background-color: #FFFFFF;
+    color: #868686;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     font-family: 'Montserrat';
     font-weight: 400;
 }
 
-/* .header__2{
-    
-} */
+.header__2{
+  background-color:#069206;
+}
 
 .header__2__title{
     color: white;
@@ -43,7 +43,7 @@ html, body {
     /* justify-content: center; */
     /* text-align: center; */
 
-    font-weight: 600;
+    font-weight: 400;
     font-size: 36px;
     
 }
