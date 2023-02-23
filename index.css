@@ -183,6 +183,7 @@ footer{
     padding-right: 15px;
    flex-direction: column;
    overflow-wrap: break-word;
+   font-size: 10px !important;
     
     
 }
