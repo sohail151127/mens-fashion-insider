@@ -32,6 +32,7 @@ html, body {
     padding-bottom: 0.5rem;
     font-family: 'Montserrat';
     font-weight: 400;
+    font-size: 12px !important;
 
     /* border:5px solid red; */
     /* width:100%; */
@@ -247,7 +248,7 @@ footer{
     font-family: var(--font-barlow);
 
     position: sticky;
-    top: -5rem;
+    top: 0rem;
   }
   .group-child {
     background-color: var(--color-white);
