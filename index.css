@@ -3,16 +3,23 @@
 }
 
 html, body {
-    margin: 0;
-    height: 100%;
+  margin: 0px;
+  padding: 0px;
+    /* height: 100%; */
     font-family: 'Montserrat';
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     
 }
 
 /* I'm giving this class to all the text expect headings */
 .font__size{
   font-size: 16px !important;
+}
+
+.container{
+  /* border: 10px solid rgb(199, 12, 105); */
+  overflow-x: hidden;
+
 }
 
 .header__1{
@@ -24,10 +31,17 @@ html, body {
     padding-bottom: 0.5rem;
     font-family: 'Montserrat';
     font-weight: 400;
+
+    /* border:5px solid red; */
+    /* width:100%; */
+    /* max-width: 100%; */
 }
 
 .header__2{
   background-color:#069206;
+
+  /* border:5px solid blue; */
+  
 }
 
 .header__2__title{
@@ -79,16 +93,23 @@ main {
     padding-right: 231px;
     column-gap: 46px;
 
+    /* border: 20px soid rgb(18, 40, 240); */
+
 }
 
 aside{
-    /* 250 px is the width of right sidebar */
-    flex: 0 0 270px;
+  /* 250 px is the width of right sidebar */
+  /* flex: 0 0 270px; */
+  flex: 0 0 25%;
 }
+
+
 
 article{
     /* display: flex; */
     /* flex-direction: column; */
+    
+     /* background-color: #069206; */
 }
 
 .main__heading{
@@ -98,6 +119,7 @@ article{
 
 .content{
     /* overflow: auto; */
+    /* background-color: #061fff; */
 }
 
 footer{
@@ -237,10 +259,7 @@ footer{
   }
 
 
-  .div1,
-  .foot-treatment {
-    /* left: 449px; */
-  }
+ 
   .foot-treatment {
     text-decoration: none;
     /* left: 466px; */
@@ -269,32 +288,20 @@ footer{
     cursor: pointer;
     background-color: transparent;
     border: none;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-items: flex-start; */
-    /* justify-content: flex-start; */
-    /* gap: var(--gap-2xs); */
-  }
-  .reviews {
-    /* position: relative; */
-    /* font-size: var(--font-size-xs); */
-    /* font-weight: 300; */
   }
  
+ 
   .frame-child {
-    /* position: relative; */
+    
     width: 150px;
-    /* height: 20px; */
-    /* flex-shrink: 0; */
-    /* object-fit: cover; */
+  
   }
   .reduces-foot-pain {
-    /* flex: 1;
-    position: relative; */
+ 
     font-weight: 300;
   }
   .vector-group {
-    /* align-self: stretch; */
+   
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -302,15 +309,13 @@ footer{
     gap: var(--gap-xs);
   }
   .frame-item {
-    /* position: relative; */
-    /* width: 226px; */
+ 
     height: 164px;
-    /* flex-shrink: 0; */
-    /* object-fit: cover; */
+   
   }
   .check-availability,
   .oxford-derby-orthopedic {
-    /* position: relative; */
+  
     font-size: var(--font-size-xs);
     font-weight: 300;
     font-family: var(--font-roboto);
@@ -325,7 +330,7 @@ footer{
   .check-availability-wrapper {
     border-radius: var(--br-sm);
     background-color: var(--color-darkslateblue);
-    /* display: flex; */
+    
     flex-direction: row;
     padding: 8px var(--padding-md);
     align-items: flex-start;
@@ -382,12 +387,7 @@ footer{
   
   
   
-  .this-is-the-problem-with-foot {
-    /* margin: 0; */
-  }
-  .if-you-struggle-container {
-    /* padding-top: 2rem; */
-  }
+ 
   .frame-parent1 {
     /* display: flex; */
     flex-direction: column;
@@ -410,10 +410,7 @@ footer{
     font-family: var(--font-barlow);
   }
   .foot-pain-is-container {
-    /* position: relative; */
     font-size: var(--font-size-lg);
-    /* display: inline-block; */
-    /* width: 836px; */
   }
   
   .the-truth-about {
@@ -449,23 +446,12 @@ footer{
     width: 100%;
   }
 
-  .over-12500 {
-    /* width: 50%; */
-  }
   .group-item {
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
     background-color: var(--color-black);
-    /* width: 10px; */
-    /* height: 216px; */
-    /* border: 1px solid red; */
   }
  
  
   .jacob-n {
-    /* position: relative; */
-    /* line-height: 150%; */
     font-weight: 700;
   }
   .vector-parent3 {
@@ -487,67 +473,57 @@ footer{
     background-color: #F9F9F9;
 }
   .frame-wrapper {
-    /* position: absolute; */
-    /* top: 0; */
+ 
     left: 10px;
     background-color: var(--color-whitesmoke);
-    /* padding: var(--padding-lg); */
+
   }
   .rectangle-group {
-    /* position: relative; */
-    /* width: 850px; */
+   
     height: 441px;
-    /* flex-shrink: 0; */
-    /* border: 1px solid red; */
+
     height: 256px;
   }
   .group-inner {
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
+  
     background-color: var(--color-black);
-    /* width: 10px; */
+
     height: 133px;
   }
   .rectangle-container {
-    /* position: relative; */
-    /* width: 850px; */
+   
     height: 172px;
-    /* flex-shrink: 0; */
+
   }
   .rectangle-div {
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
+  
     background-color: var(--color-black);
-    /* width: 10px; */
+   
     height: 160px;
   }
   .group-div {
-    /* position: relative; */
-    /* width: 850px; */
+ 
     height: 192px;
-    /* flex-shrink: 0; */
+ 
   }
 
   .group-parent {
-    /* align-items: flex-end; */
+ 
     gap: var(--gap-xl);
     font-family: var(--font-montserrat);
-    /* padding-left: 1rem; */
+ 
   }
  
   .designed-in-the-container {
-    /* position: relative; */
+ 
     font-size: var(--font-size-base);
-    /* display: inline-block; */
-    /* width: 828px; */
+  
   }
   .group-child1 {
     
     border: 5px solid var(--color-black);
     box-sizing: border-box;
-    /* width: 850px; */
+  
     height: 550px;
   }
   .rectangle-icon {
@@ -557,16 +533,16 @@ footer{
   .conclusion-its-a {
     text-transform: uppercase;
     color: white;
-    /* padding: 0.5rem; */
+   
     
   }
   .conclusion-its-a-no-brainer-wrapper {
-    /* position: absolute; */
+
     top: 20px;
     left: 20px;
     border-radius: var(--br-md) var(--br-md) 0 0;
     background-color: var(--color-darkslateblue);
-    /* width: 810px; */
+  
     display: flex;
     flex-direction: row;
     padding: 22px 248px;
@@ -577,32 +553,31 @@ footer{
  
   .the-company-behind-container {
     align-self: stretch;
-    /* position: relative; */
+
   }
   .the-company-behind-the-oxford-wrapper {
-    /* position: absolute; */
+  
     top: 45px;
     left: 33px;
-    /* width: 760px; */
+   
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
   }
   .group-child2 {
-    /* position: absolute; */
+  
     top: 0;
     left: 0;
     border: 5px solid var(--color-black);
     box-sizing: border-box;
-    /* width: 850px; */
+   
     height: 302px;
   }
   .frame-parent10 {
-    /* position: relative; */
-    /* width: 850px; */
+   
     height: 302px;
-    /* flex-shrink: 0; */
+   
     text-align: left;
     font-size: var(--font-size-base);
     color: var(--color-black);
@@ -640,11 +615,11 @@ footer{
     color: var(--color-white);
   }
   .check-availability2 {
-    /* position: relative; */
+  
     font-size: var(--font-size-base);
     display: inline-block;
     color: var(--color-white);
-    /* width: 191px; */
+   
   }
   .where-can-you,
   .you-can-try {
@@ -655,16 +630,14 @@ footer{
   .To_avoid{
     background-color: #C9F5FB;
   }
-  .where-can-you {
-    /* font-size: var(--font-size-xl); */
-  }
+ 
   .their-official-website-here {
     text-decoration: underline;
   }
   .to-avoid-cheap-container {
-    /* flex: 1; */
+   
     position: relative;
-    /* display: inline-block; */
+  
     height: 384px;
   }
   .check-availability-frame,
@@ -749,15 +722,6 @@ footer{
     text-align: left;
     font-size: var(--font-size-xl);
   }
-  /* .desktop-4 {
-    overflow: hidden;
-    text-align: center;
-    font-size: var(--font-size-lg);
-    color: var(--color-black);
-    font-family: var(--font-barlow);
-  } */
-  
-  
   
   .body__four__pics{
     overflow-x: hidden;
