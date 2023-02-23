@@ -6,6 +6,7 @@ html, body {
     margin: 0;
     height: 100%;
     font-family: 'Montserrat';
+    /* overflow-x: hidden; */
     
 }
 
@@ -749,9 +750,60 @@ footer{
   
   
   
+  .body__four__pics{
+    overflow-x: hidden;
+  }
   
+  .section-countainer{
+    --bs-gutter-x: 1.5 rem;
+    --bs-gutter-y:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+  }
+
+.section-countainer .columns {
+  flex: 0  0 auto;
+  width: 50%;
+}
+
+.section-countainer .columns.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-countainer .columns.content .content-container {
+  padding: 3px 10px;
+}
+
   
+
+@media screen and (max-width:1200px) {
+  .section-countainer{
+    flex-flow: row wrap;
+  }
+
+  .section-countainer .columns.image{
+    display: block;
+    order: 1;
+    width: 100%;
+    height: 250px;
+  }
+
+  .section-countainer .columns.content{
+    display: block;
+    order: 2;
+    width: 100%;
+  }
+
+.section-countainer .columns.content .content-container{
+    padding: 20px 35px;
+  }
   
+}
   
   
   
