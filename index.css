@@ -181,7 +181,7 @@ footer{
   .breadcrumbs{
     padding-left: 15px;
     padding-right: 15px;
-   flex-direction: column;
+   /* flex-direction: column; */
    overflow-wrap: break-word;
    font-size: 10px !important;
     
