@@ -7,7 +7,8 @@ html, body {
   padding: 0px;
     /* height: 100%; */
     font-family: 'Montserrat';
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    overflow-wrap: break-word;
     
 }
 
@@ -18,7 +19,7 @@ html, body {
 
 .container{
   /* border: 10px solid rgb(199, 12, 105); */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 
 }
 
@@ -197,6 +198,15 @@ footer{
 .main__heading{
   font-size: x-large;
   font-weight: 700;
+  overflow-wrap: break-word;
+
+}
+
+.font__size{
+  overflow-wrap: break-word;
+}
+
+.if__for{
   overflow-wrap: break-word;
 }
 
@@ -411,8 +421,8 @@ footer{
     font-size: x-large;
   }
 
-  .hcfe767dedcef44bf9b99f14842baa-icon,
-  .sneakers2020-trend-moccasins-a-icon {
+  .sneakers__icon2,
+  .sneakers__icon {
    
     width: 100%;
     padding: 0;
@@ -831,7 +841,10 @@ footer{
     padding-left: 1rem;
   }
   
-
+ .green__buttons:hover {
+  background-color: #306830 !important;
+  border-bottom: 10px solid #306830 !important;
+ }
   
   
   
