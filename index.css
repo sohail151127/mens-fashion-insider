@@ -212,17 +212,17 @@ footer{
   overflow-wrap: break-word;
 }
 
-.first__image{
+/* .first__image{
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
-}
+} */
 
-.second__img{
+/* .second__img{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 
 
