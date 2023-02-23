@@ -805,9 +805,24 @@ footer{
   
 }
   
+
+
   
+  .abc{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: 1px solid #c2c2c2;;
+    padding: 0.5rem;
+  }
+
+  .abc1{
+    border-right: 1px solid #c2c2c2;;
+  }
   
-  
+  .def{
+    padding-left: 1rem;
+  }
   
   
   
