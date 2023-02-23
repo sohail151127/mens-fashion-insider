@@ -73,6 +73,8 @@ html, body {
     padding-top: 0.5rem;
     padding-bottom: 2rem;
     font-family: Montserrat;
+    column-gap: 10px;
+    font-weight: 700;
 
 }
 
@@ -162,14 +164,25 @@ footer{
       /* flex: 0 0 200px; */
       /* display: none; */
   /* } */
+
+  .header__1{
+    overflow-wrap: break-word;
+  }
   .header__2__title{
     padding-left: 15px;
     padding-right: 15px;
+    overflow-wrap: break-word;
+
+    font-weight: 400;
+    font-size: 20px;
 }
   .breadcrumbs{
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
+   flex-direction: column;
+   overflow-wrap: break-word;
+    
+    
 }
   main {
     /* border: 2px solid rgb(206, 15, 120); */
@@ -180,6 +193,25 @@ footer{
     /* column-gap: 1rem; */
     /* overflow:hidden; */
 }
+
+.main__heading{
+  font-size: x-large;
+  font-weight: 700;
+  overflow-wrap: break-word;
+}
+
+.first__image{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+.second__img{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 }
 
 /* ........css.......... */
